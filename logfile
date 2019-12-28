@@ -1,0 +1,7 @@
+2019-12-28 11:19:37.186 WAT [3435] FATAL:  lock file "postmaster.pid" already exists
+2019-12-28 11:19:37.186 WAT [3435] HINT:  Is another postmaster (PID 3424) running in data directory "/usr/local/var/postgres"?
+2019-12-28 11:20:04.496 WAT [3596] LOG:  listening on IPv6 address "::1", port 5432
+2019-12-28 11:20:04.496 WAT [3596] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-12-28 11:20:04.497 WAT [3596] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-12-28 11:20:04.512 WAT [3597] LOG:  database system was shut down at 2019-12-28 11:19:55 WAT
+2019-12-28 11:20:04.517 WAT [3596] LOG:  database system is ready to accept connections
