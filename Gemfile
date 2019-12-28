@@ -23,6 +23,14 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 gem 'devise', '~> 4.7', '>= 4.7.1'
 
+gem 'carrierwave'
+
+gem 'cloudinary'
+
+gem 'mini_magick'
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
@@ -39,6 +47,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'figaro'
 end
 
 group :development do
